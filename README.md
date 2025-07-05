@@ -1,10 +1,19 @@
 # light-control
 This project demonstrates how to control 3 LEDs using 3 push buttons with Arduino Uno.
-When a button is pressed, a specific LED turns on for 5 seconds and then turns off automatically.
 
 ## Project Objective
 The goal of this project is to build a simple input-output control system using Arduino. 
-I connected three push buttons as inputs and three LEDs as outputs , Each button lights up a different LED when pressed, for a fixed delay.
+Three push buttons are connected as inputs and three LEDs as outputs,
+Each button when pressed turns on a different LED for a fixed delay .
+
+## Components Used
+- Arduino Uno  
+- 3 LEDs (Red, Green, Blue)  
+- 3 Push Buttons  
+- 3 × 220Ω Resistors (for LEDs)  
+- 3 × 10kΩ Resistors (for pull-down on buttons)  
+- Breadboard  
+- Jumper Wires
 
 ## How I Built It
 1. I started by placing 3 LEDs (red, green, blue) on the breadboard.
@@ -12,6 +21,20 @@ I connected three push buttons as inputs and three LEDs as outputs , Each button
 3. Added 3 push buttons and connected them to pins 2, 3, and 4.
 4. Each button was grounded through a 10kΩ pull-down resistor.
 5. Wrote and uploaded the code using Arduino IDE.
+
+## What I Learned
+Working on this project gave me a better understanding of how input and output components interact in Arduino. 
+Even though it’s a simple circuit, it helped me practice the core functions I’ll be using in future, more advanced projects.
+
+- Use digitalRead() to detect button input
+- Control LEDs with digitalWrite()
+- Apply timing using delay() to manage how long outputs stay active
+- Connect components properly on a breadboard and troubleshoot wiring issues
+
+## Project Importance
+This project introduces essential skills in working with Arduino, such as reading digital inputs, controlling outputs, using delays for timing, and assembling circuits using a breadboard.  
+It plays an important role in building a strong foundation for more advanced applications such as traffic light systems and interactive electronics that respond to user actions.
+
 
 ## Arduino Code
 // C++
