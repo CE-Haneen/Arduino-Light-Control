@@ -1,10 +1,10 @@
-# light-control
+# Arduino-Light-Control
 This project demonstrates how to control 3 LEDs using 3 push buttons with Arduino Uno.
 
 ## Project Objective
 The goal of this project is to build a simple input-output control system using Arduino. 
 Three push buttons are connected as inputs and three LEDs as outputs,
-Each button when pressed turns on a different LED for a fixed delay .
+Each button when pressed turns on a different LED for a fixed delay.
 
 ## Components Used
 - Arduino Uno  
